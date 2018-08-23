@@ -1,0 +1,16 @@
+.head{text-align:center;}
+#body{background-color:#999;
+font-family:aeril serif;}
+#top_navigation ul{
+border-top:2px  white solid;border-bottom:2px  white solid;margin:20px 0;padding:10px 0;
+clear:both;
+}
+#top_navigation ul li{
+display:inline;
+}#top_navigation ul li a{
+padding:0 15px;
+}
+#nav a:link{color:black;}
+#nav a:visited{color:blue;}
+#nav a:active{color:blue;}
+#nav a:hover{color:green;}

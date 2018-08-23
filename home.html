@@ -1,0 +1,187 @@
+<html>
+<head><title>MY WEBSITE</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>  
+<outer>
+<div id="outer">
+<wrapper>
+<div id="wrapper">
+<div id="logo">
+<img src="images/logo2.png">
+</div>
+<div id="socialmedia">
+<ul>
+<li><a href="https://www.facebook.com" target="blank"><img src=" images/icon1.jpg"></a></li>
+<li><a href="https://www.youtube.com" target="blank"><img src=" images/icon2.jpg"></a></li>
+<li><a href="https://www.pinterest.com" target="blank"><img src=" images/icon3.png"></a></li>
+ </ul>
+</div>
+<div id="nav">
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contacts.html">CONTACTS</a></li>
+<li><a href="station.html">STATIONS</a></li>
+</ul>
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="images/voi1.jpg" style="width:100%">
+  <div class="text">WELLCOME TO VOI STATION</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="images/nai1.jpg" style="width:100%">
+  <div class="text">NAIROBI STATION</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="images/mom1.jpg" style="width:100%">
+  <div class="text">MOMBASA STATION</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="images/kib1.jpg" style="width:100%">
+  <div class="text">KIBWEZI STATION</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="images/nai2.jpg" style="width:100%">
+  <div class="text">NAIROBI STATION</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 /8</div>
+  <img src="images/sgr5.jpg" style="width:100%">
+  <div class="text">SGR MAIN TERMINUS</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7/ 8</div>
+  <img src="images/sgr8.jpg" style="width:100%">
+  <div class="text">NEW SGR TRAIN LAUNCH</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="images/sgr9.JPG" style="width:100%">
+  <div class="text">NEW INTRODUCED PASSENGER'S TRAIN</div>
+</div>
+
+</div>
+<BR>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+   <span class="dot"></span>
+	<span class="dot"></span>
+	<span class="dot"></span>
+</div>
+<HR size="3px" color="#191919">
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div id="content">
+<section class="operations">
+<h2>SGR operations</h2>
+<h3>madaraka services</h3>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies eget, 
+tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+<h4 class="date">7 march 2017</h3>
+<h3>SGR promotion services</h3>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies eget, 
+tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+<h4 class="date">7 march 2017</h3>
+</section>
+<section class="LATEST">
+<h2>LATEST NEWS</H2>
+<h3>SGR extension to machakos </h3>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies eget, 
+tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+<h4 class="date">7 march 2017</h3>
+<h3>SGR extension to kisumu </h3>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies eget, 
+tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+<h4 class="date">7 march 2017</h3>
+</section>
+<section class="video">
+<h2>Treding video</h2>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies eget, 
+tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+<video width="200px" height="150px" autoplay>
+<source src="images/video2.MP4" type="video/MP4">
+<source src="movie.ogg" type="video/ogg">
+</video>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Vestibulum tortor quam, feugiat vitae, ultricies eget, 
+tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+</section>
+</div>
+<div class="bottom">
+<div id="bottom-left">
+<h2>quick links</h2>
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contacts.html">CONTACTS</a></li>
+<li><a href="station.html">STATIONS</a></li>
+</ul>
+</div>
+<div id="bottom-right">
+<h2>contacts info</h2>
+<P>P.O BOX 111010-08080,</p>
+<P>MOMBASA,KENYA.</p>
+<H4>EMAIL & PHONE NUMBERS</H4>
+<OL type=1>
+<li><a href="https://www.gmail.com" target="blank">sgr@gmail.com</a></li>
+<li>0703454321</li>
+<li>0703454533</li>
+<li>0703454312</li>
+</ol>
+</div>
+</div>
+<div id="footer">
+<P> &copy:2018; SGR.ALL RIGHT RESERVED<BR>Designed by kitavison</p>
+</div>
+</div>
+</wrapper>
+</div>
+</outer>
+</body>
+</html>
